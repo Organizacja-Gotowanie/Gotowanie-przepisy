@@ -72,6 +72,13 @@ class DefaultController extends Controller
      * F
      */
 
+    /**
+     * @Route("/jajecznica.html", name="jajecznicazboczkiem")
+     */
+    public function  jajecznicaAction()
+    {
+        return $this->render('/default/jajecznica.html.twig');
+    }     
      /*
      * G
      */
