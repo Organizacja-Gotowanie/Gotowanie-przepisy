@@ -29,6 +29,13 @@ class DefaultController extends Controller
      /*
      * B
      */
+    /**
+     * @Route("aleklops.html", name="aleklops")
+     */
+    public function  aleklopsAction()
+    {
+        return $this->render('/default/aleklops.html.twig');
+    }
 
      /*
      * C
