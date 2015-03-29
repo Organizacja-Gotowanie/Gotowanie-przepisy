@@ -51,7 +51,13 @@ class DefaultController extends Controller
      /*
      * D
      */    
-    
+    /**
+     * @Route("/bigos.html", name="bigos")
+     */
+    public function  BigosAction()
+    {
+        return $this->render('/default/bigos.html.twig');
+    }    
      /*
      * E
      */
